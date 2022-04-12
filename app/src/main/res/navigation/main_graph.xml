@@ -8,8 +8,8 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="edu.uw.tcss450.uiandnavigationlab.ui.home.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_secondHomeFragment"
             app:destination="@id/secondHomeFragment" />
@@ -31,8 +31,8 @@
     <fragment
         android:id="@+id/navigation_blogs"
         android:name="edu.uw.tcss450.uiandnavigationlab.ui.blog.BlogListFragment"
-        android:label="fragment_blog_list"
-        tools:layout="@layout/fragment_blog_list" >
+        android:label="@string/title_blogs"
+        tools:layout="@layout/fragment_blog_list">
         <action
             android:id="@+id/action_navigation_blogs_to_blogPostFragment"
             app:destination="@id/blogPostFragment" />
@@ -40,7 +40,7 @@
     <fragment
         android:id="@+id/navigation_incrementor"
         android:name="edu.uw.tcss450.uiandnavigationlab.ui.incrementor.IncrementorFragment"
-        android:label="fragment_incrementor"
+        android:label="@string/title_incrementor"
         tools:layout="@layout/fragment_incrementor" />
     <fragment
         android:id="@+id/blogPostFragment"
